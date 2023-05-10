@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+	<link rel="stylesheet" href="style.css">
+	<title>Survey Form</title>
+    <link rel="stylesheet" href="">
+    <style>
+        .message{
+            color: beige;
+        }
+    </style>
+	
+</head>
+<body>
+	 
+		<form id="surveyform" >
+		
+		<div class="h1"></div><h1 >Form</h1>
+
+        <div id="message">
+
+            <p id="error-message"></p>
+        </div>
+		
+		<h5>NAME:</h5>
+		<label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br>
+
+		<label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"> 
+		
+		<h5>CONTACT</h5>
+		<label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+        
+        <h5>Email:</h5>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+
+        
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password">
+        <br>
+
+        <label>
+            <input type="checkbox" id="terms" name="terms"> I agree to the given Terms and Conditions.
+        </label>
+        <br><br>
+        <!-- <input type="submit" value="Submit"> -->
+        <button id="submit" type="button">Submit</button>
+
+        
+        
+
+		
+
+	</form>
+    <!-- <div id="message">
+
+        <p id="error-message"></p>
+    </div>
+    <p id="error-message"></p> -->
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+		
